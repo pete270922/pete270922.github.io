@@ -4,77 +4,58 @@ body{
     background-color: #777;
     width: 960px;
     font-size: 18px;
+    margin: auto;
+    line-height: 34px;
     text-align: center;
 }
 
-.show1{
-    background-color: #ebebeb;
-}
 
-header{
+header,
+nav,
+section,
+aside,
+footer{
+    display: block;
     background-color: #ebebeb;
-    border: 2px solid;
-    margin-top: 10px;
-    padding:50px;
-    margin-left: 100px;
-    width:860px;
-}
-
-nav{ 
-    border: 2px solid;
-    margin-top: 10px;
-    padding:50px;
-    margin-bottom: 30px;
-    margin-left: 100px;
-    width:860px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
 }
 
 section{
-    padding:20px;
-    margin-left: 100px;
-    height: 400px;
-    width: 400px;
+    display: block;
+    height: 267px;
+    width: 495px;
     float: left;
-}
-
-article{
-    border:50px;
-    padding:20px;
-    color:#ebebeb;
-    background-color: #777;
-    margin:20px;
-    height:300px;
-    width:320px;
-}
-
-div{
-    font-display: bold;
-    padding:30px;
-    color:#777;
-    height:50px;
-    width:250px;
-}
-
-p{
-    padding:30px;
-    color:#777;
-    height:50px;
-    width:250px;
+    overflow: hidden;
 }
 
 aside{
-    margin-left:40px;
-    padding:20px;
-    height:400px;
-    width:320px;
+    display:block;
+    height:267px;
+    width:384px;
     float:left;
+    overflow:hidden;
+    
 }
+article{
+    padding:10px;
+    color:#ebebeb;
+    background-color: #777;
+}
+
+h1,
+p{
+    width: 90%;
+    padding:10px;
+    margin: 10px;
+    color:#777;
+    text-align:center;
+    background: #ebebeb;
+}
+
+
 
 footer{
     clear:both;
-    padding: 50px;
-    border:2px solid;
-    margin-bottom: 30px;
-    margin-left: 100px;
-    width:860px;
 }
