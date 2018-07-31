@@ -135,3 +135,18 @@ input[type=submit] {
   background: #4aaaa5;
   border-bottom: 0;
 }
+
+.wrapper {
+  /* Box-model */
+  width: 1024px;
+
+  /* Positioning */
+  margin: 40px auto;
+}
+
+@media screen and (max-width: 768px) {
+  /* The wrapper's width will be 680px */
+  .wrapper {
+    width: 680px;
+  }
+}
